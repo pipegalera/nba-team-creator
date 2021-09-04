@@ -1,0 +1,12 @@
+
+# Players photos (players.json)
+
+https://github.com/bttmly/nba/blob/master/data/players.json
+
+# Players salaries
+
+https://hoopshype.com/salaries/
+
+# Players stats
+
+https://www.basketball-reference.com/
