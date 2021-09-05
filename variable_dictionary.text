@@ -1,0 +1,19 @@
+
+# Variables created:
+
+- `MP_Rank`: a rank variable of the number of minutes a player played for regular season for a team. Example: The MP_Rank for Russell Westbrook is 1 because is the player of WAS that played the most. The MP_Rank of Bradley Beal is 2, of Rui Hachimura is 3 and so forth until the last player that has played for that team. 
+
+- `Unit`: a categorical variable with the values 1,2 or 3. These labels divide the players into the First Unit, Second Unit, and Third Unit according to their minutes played. 
+
+- First Unit (FU) are the 5 players that played the most minutes for a particular team and season.
+- Second Unit (SU) are the 5 following players that played the most minutes for a particular team and season.
+- Third Unit (TU) are the rest of the players that played some minutes for a particular team and season.
+
+
+- `PER_Rank`: a rank variable of the summed PER of the players for regular season for a team. 
+
+- `PER Rank FU`: refers to the rank for the summed PER of the 5 players that played the most minutes for a particular team and season. Example: a "PER Rank FU" of 1 means that the summed PER of the First Unit of that team ranked first that year. 
+
+- `PER Rank FU and SU`: refers to the rank for the summed PER of the 10 players that played the most minutes for a particular team and season.
+
+- `PER Rank all players`: refers to the rank for the summed PER of all the players of the team roster at a given season.
