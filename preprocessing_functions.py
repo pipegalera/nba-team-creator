@@ -24,3 +24,8 @@ def create_unit_indicator(df):
 
 def sum_stat_by_unit(player_stats, unit, stat):
     return player_stats[player_stats.Unit == unit].groupby(["Team", "Season"]).sum()[stat]
+
+
+def remove_accents(column):
+     return column.str.normalize('NFKD').str.encode('ascii', errors='ignore').str.decode('utf-8').str.replace('.','', regex = True)
+
