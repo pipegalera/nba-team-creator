@@ -1,0 +1,8 @@
+pandas
+numpy
+sklearn
+thefuzz
+pulp
+matplotlib
+stargazer
+statsmodels
